@@ -3,16 +3,14 @@ import Card from './Card';
 import Button from './Button';
 import './ProductCard.scss';
 import { Product } from './ProductsListing';
+import { calculateDiscount } from '../services/calculatorUtil';
 
 type ProdcutCardType = Product & {
     buttonText: string
 }
 
 const ProductCard: React.FC<ProdcutCardType> = ({ title, description, image, price, discount, currency, ageRestriction, color, buttonText }): JSX.Element => {
-    function calculateDiscount(price:number, discount: number) {
-        const discountedPrice = price - (price * (discount / 100));
-        return Math.round(discountedPrice * 100) / 100;
-    }
+    const discountedPrice = calculateDiscount(price, discount);
 
     return (
         <Card className="product-card">
@@ -27,7 +25,7 @@ const ProductCard: React.FC<ProdcutCardType> = ({ title, description, image, pri
                 <div className="product-price" style={{color: color}}>
                     {  discount ?
                         <>
-                            <span className="product-price-new">{currency}{calculateDiscount(price, discount)}</span>
+                            <span className="product-price-new">{currency}{discountedPrice}</span>
                             <span className="product-price-discounted">{currency}{price}</span>
                             <span className="product-discount-description">Limited {discount}% discount</span>
                         </>
