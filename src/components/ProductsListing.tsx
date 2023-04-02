@@ -64,7 +64,7 @@ const ProductsListing: React.FC = (): JSX.Element => {
                 <Bars
                     height="30"
                     width="30"
-                    color="#03caea"
+                    color="#e4394f"
                     ariaLabel="loader"
                     wrapperClass="loader"
                 />
