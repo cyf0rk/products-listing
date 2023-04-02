@@ -14,6 +14,7 @@
             "image": "/images/gift-bundle-retro-min.png",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
             "price": 239.99,
+            "discount": 15,
             "currency": "$",
             "ageRestriction": 11,
             "color": "#28af62"
@@ -23,6 +24,7 @@
             "image": "/images/gift-bundle-music-min.png",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
             "price": 216.99,
+            "discount": 20,
             "currency": "$",
             "ageRestriction": 11,
             "color": "#fbc42c"
@@ -32,6 +34,7 @@
             "image": "/images/gift-bundle-rc-min.png",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
             "price": 216.99,
+            "discount": 15,
             "currency": "$",
             "ageRestriction": 11,
             "color": "#0f44b8"
@@ -41,6 +44,7 @@
             "image": "/images/gift-gaming-bundle-min.png",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
             "price": 149.99,
+            "discount": 20,
             "currency": "$",
             "ageRestriction": 11,
             "color": "#642d92"
@@ -50,6 +54,7 @@
             "image": "/images/gift-bundle-ai-min.png",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
             "price": 149.99,
+            "discount": 10,
             "currency": "$",
             "ageRestriction": 11,
             "color": "#e4394f"
@@ -59,6 +64,7 @@
             "image": "/images/gift-batmobile-1-min.png",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
             "price": 149.99,
+            "discount": 25,
             "currency": "$",
             "ageRestriction": 11,
             "color": "#000000"
