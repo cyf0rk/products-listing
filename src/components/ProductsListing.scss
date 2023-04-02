@@ -1,4 +1,18 @@
-.products-listing {
-    display: flex;
-    flex-direction: row;
+.products-listing-section {
+    padding: 2em 1em;
+    text-align: center;
+
+    .products {
+        display: flex;
+        margin: 2rem auto;
+        max-width: 1024px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .loader {
+        margin: 2rem 0;
+        justify-content: center;
+    }
 }

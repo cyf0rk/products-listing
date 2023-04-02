@@ -1,0 +1,67 @@
+{
+    "products": [
+        {
+            "title": "Starter Bundle",
+            "image": "/images/gift-bundle-start-min.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 149.99,
+            "currency": "$",
+            "ageRestriction": 11,
+            "color": "#00bed6"
+        },
+        {
+            "title": "Retro Bundle",
+            "image": "/images/gift-bundle-retro-min.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 239.99,
+            "currency": "$",
+            "ageRestriction": 11,
+            "color": "#28af62"
+        },
+        {
+            "title": "Music Bundle",
+            "image": "/images/gift-bundle-music-min.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 216.99,
+            "currency": "$",
+            "ageRestriction": 11,
+            "color": "#fbc42c"
+        },
+        {
+            "title": "RC Bundle",
+            "image": "/images/gift-bundle-rc-min.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 216.99,
+            "currency": "$",
+            "ageRestriction": 11,
+            "color": "#0f44b8"
+        },
+        {
+            "title": "Gaming Bundle",
+            "image": "/images/gift-gaming-bundle-min.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 149.99,
+            "currency": "$",
+            "ageRestriction": 11,
+            "color": "#642d92"
+        },
+        {
+            "title": "AI Bundle",
+            "image": "/images/gift-bundle-ai-min.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 149.99,
+            "currency": "$",
+            "ageRestriction": 11,
+            "color": "#e4394f"
+        },
+        {
+            "title": "CircuitMess Batmobile",
+            "image": "/images/gift-batmobile-1-min.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 149.99,
+            "currency": "$",
+            "ageRestriction": 11,
+            "color": "#000000"
+        }
+    ]
+}
