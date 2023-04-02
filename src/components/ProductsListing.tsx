@@ -6,11 +6,12 @@ import Button from './Button';
 import { Bars } from 'react-loader-spinner';
 import { fetchProducts } from '../services/fetchProducts';
 
-type Product = {
+export type Product = {
     title: string,
     image: string,
     description: string,
     price: number,
+    discount: number,
     currency: string,
     ageRestriction: number,
     color: string
@@ -56,7 +57,7 @@ const ProductsListing: React.FC = (): JSX.Element => {
             <div className="products">
                 {products && products.map((product: Product, idx: number) =>
                     <ProductCard key={idx} title={product.title} description={product.description} image={product.image}
-                    price={product.price} currency={product.currency} ageRestriction={product.ageRestriction} color={product.color} buttonText="Shop now" />
+                    price={product.price} discount={product.discount} currency={product.currency} ageRestriction={product.ageRestriction} color={product.color} buttonText="Shop now" />
                 )}
             </div>
             { loading &&
